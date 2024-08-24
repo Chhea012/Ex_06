@@ -1,0 +1,126 @@
+table {
+    width: 90%;
+    margin: 40px auto;
+    overflow: hidden;
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: start;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.818);
+
+}
+tr:nth-child(1) td:nth-child(5) button:nth-child(1) {
+    border: none;
+    background-color: rgba(45, 196, 75, 0.57);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(102, 174, 68);
+}
+tr:nth-child(2) td:nth-child(5) button:nth-child(1) {
+    border: none;
+    background-color: rgba(214, 26, 108, 0.435);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(205, 59, 115);
+}
+tr:nth-child(3) td:nth-child(5) button:nth-child(1) {
+    border: none;
+    background-color: rgba(13, 134, 232, 0.435);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    padding-right: 27px;
+    padding-left: 27px;
+    color: rgb(48, 104, 189);
+}
+tr:nth-child(5) td:nth-child(5) button:nth-child(1) {
+    border: none;
+    background-color: rgba(234, 185, 21, 0.435);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    padding-right: 27px;
+    padding-left: 27px;
+    color: rgb(109, 99, 25);
+}
+tr:nth-child(6) td:nth-child(5) button:nth-child(1) {
+    border: none;
+    background-color: rgba(52, 192, 224, 0.435);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(73, 151, 158);
+}
+tr:nth-child(4) td:nth-child(5) button:nth-child(1) {
+    border: none;
+    background-color: rgba(45, 196, 75, 0.57);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: rgb(102, 174, 68);
+}
+tr:nth-child(1) td:nth-child(6) {
+    font-weight: bold;
+}
+tr:nth-child(2) td:nth-child(6) {
+    font-weight: bold;
+}
+tr:nth-child(3) td:nth-child(6) {
+    font-weight: bold;
+}
+tr:nth-child(4) td:nth-child(6) {
+    font-weight: bold;
+}
+tr:nth-child(5) td:nth-child(6) {
+    font-weight: bold;
+}
+tr:nth-child(6) td:nth-child(6) {
+    font-weight: bold;
+}
+thead tr:nth-child(1) {
+    background: rgba(128, 128, 128, 0.089);
+}
+tbody tr:nth-child(even){
+    padding: 20px;
+   background: rgba(128, 128, 128, 0.089);
+}
+tbody tr:nth-child(odd){
+    padding: 20px;
+   background: rgba(232, 220, 220, 0.097);
+}
+tbody tr:hover{
+    background-color: rgba(128, 128, 128, 0.171);
+}
+tr img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50%;
+}
